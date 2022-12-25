@@ -1,0 +1,39 @@
+html, body{
+    background-color: #45c9ee;
+    height: 100%;
+    width: 100%;
+    font-family: "Bookman Old Style", sans-serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+header{
+    flex: 0 0 auto;
+}
+.container{
+    width: 100%;
+    flex: 1 1 auto;
+}
+.par{
+    width: 50%;
+    margin: 10px auto;
+    font-size: 16px;
+}
+footer{
+    flex: 0 0 auto;
+}
+ul{
+    background-color: #0f5132;
+    margin: 5px 0;
+    padding: 15px;
+}
+ul li {
+    display: inline-block;
+    padding: 0 20px;
+}
+ul li:hover{
+    background-color: #3eecc6;
+}
+
