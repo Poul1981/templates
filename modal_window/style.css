@@ -1,0 +1,15 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn{
+    margin: 10px;
+}
+img{
+    height: 20%; !important;
+    width: 20%; !important;
+    margin: 5px;
+}
