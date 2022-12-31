@@ -11,6 +11,9 @@ echo "
             background-color: #0dcaf0;
             //background-image: url('tyger.jpg');
         }
+        .btn{
+            margin: 10px;
+        }
     </style>
 ";
 $str = 'Hello world';
@@ -134,7 +137,7 @@ echo '
 </div>
 ';
 
-echo '<div class="container">
+echo '<div class="container" style="display: flex; justify-content: center; align-items: center; margin-top: 20px">
         <button type="button" class="btn btn-primary">Primary</button>
         <button type="button" class="btn btn-secondary">Secondary</button>
         <button type="button" class="btn btn-success">Success</button>
